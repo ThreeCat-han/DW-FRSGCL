@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>生日快乐 婷宝 🎂</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="fireworks"></canvas>
+    <div class="music-control">
+        <audio id="bg-music" src="assets/music.mp3" autoplay loop></audio>
+        <button onclick="toggleMusic()">🎵</button>
+    </div>
+    <h1 class="greeting">生日快乐，婷宝！🎉</h1>
+
+    <div class="carousel">
+        <div class="carousel-container">
+            <img src="assets/images/1.jpg" alt="照片1">
+            <img src="assets/images/2.jpg" alt="照片2">
+            <img src="assets/images/3.jpg" alt="照片3">
+        </div>
+    </div>
+
+<!--    <div class="lottie-pig">
+        <lottie-player src="assets/animations/running_pig.json" background="transparent" speed="1" loop autoplay></lottie-player>
+    </div> -->
+
+    <div class="cake-game">
+        <canvas id="cakeCanvas" width="300" height="400"></canvas>
+        <p>婷宝，吹一下蜡烛~</p>
+    </div>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
